@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
+    <PackageReference Include="Microsoft.ML" Version="1.6.0" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.6.0" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.6.0" />
+  </ItemGroup>
+  <ItemGroup Label="ModelANG">
+    <None Include="ModelANG.consumption.cs">
+      <DependentUpon>ModelANG.mbconfig</DependentUpon>
+    </None>
+    <None Include="ModelANG.training.cs">
+      <DependentUpon>ModelANG.mbconfig</DependentUpon>
+    </None>
+    <None Include="ModelANG.zip">
+      <DependentUpon>ModelANG.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
