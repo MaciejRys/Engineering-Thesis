@@ -1,0 +1,14 @@
+com/emorec/BuildConfig.java
+ com.emorec.BuildConfig
+com/emorec/MainApplication.java
+ com.emorec.MainApplication
+ com.emorec.MainApplication$1
+com/emorec/MainActivity.java
+ com.emorec.MainActivity
+com/emorec/ReactNativeFlipper.java
+ com.emorec.ReactNativeFlipper
+ com.emorec.ReactNativeFlipper$1
+ com.emorec.ReactNativeFlipper$2
+ com.emorec.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
